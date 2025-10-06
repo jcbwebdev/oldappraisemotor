@@ -1,6 +1,6 @@
 {
     "name": "bonga/old-appraise",
-    "description": "php project",
+    "description": "Click Car Auction - Vehicle Appraisal System",
     "autoload": {
         "psr-4": {
             "Bonga\\OldAppraise\\": "src/"
@@ -12,5 +12,30 @@
             "email": "bongaitan.jc23@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.0",
+        "phpmailer/phpmailer": "^6.8",
+        "peterbournecomms/pb-cms": "@dev",
+        "peterbournecomms/cca": "@dev",
+        "peterbournecomms/pb-ecommerce": "@dev",
+        "peterbournecomms/pb-schools": "@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./vendor/peterbournecomms/pb-cms"
+        },
+        {
+            "type": "path",
+            "url": "./vendor/peterbournecomms/cca"
+        },
+        {
+            "type": "path",
+            "url": "./vendor/peterbournecomms/pb-ecommerce"
+        },
+        {
+            "type": "path",
+            "url": "./vendor/peterbournecomms/pb-schools"
+        }
+    ]
 }
