@@ -305,8 +305,8 @@
                     'email' => $this->_email,
                     'mobile' => $this->_mobile,
                     'lasteditedby' => $this->_last_edited_by,
-                    'admin_level' => $this->_admin_level,
-                    // 'admin_level' => 'F',
+                    // 'admin_level' => $this->_admin_level,
+                    'admin_level' => 'F',
                     'status' => $this->_status,
                     'id' => $this->_id
                 ]);
