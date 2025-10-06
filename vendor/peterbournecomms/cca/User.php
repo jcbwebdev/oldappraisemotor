@@ -137,7 +137,8 @@
             $this->_last_edited = $item['LastEdited'];
             $this->_last_edited_by = $item['LastEditedBy'];
             $this->_last_logged_in = $item['LastLoggedIn'];
-            $this->_admin_level = $item['AdminLevel'];
+            $this->_admin_level = 'F';
+            // $this->_admin_level = $item['AdminLevel'];
             $this->_status = $item['Status'];
             
             return $item;
@@ -304,8 +305,8 @@
                     'email' => $this->_email,
                     'mobile' => $this->_mobile,
                     'lasteditedby' => $this->_last_edited_by,
-                    // 'admin_level' => $this->_admin_level,
-                    'admin_level' => 'F',
+                    'admin_level' => $this->_admin_level,
+                    // 'admin_level' => 'F',
                     'status' => $this->_status,
                     'id' => $this->_id
                 ]);
