@@ -19,7 +19,7 @@
     $Postcode = $_POST['Postcode'] ?? null;
     $Tel = $_POST['Tel'] ?? null;
     
-    $_SESSION['PostedForm']     = $_POST;
+    $_SESSION['PostedForm'] = $_POST;
     
     $CO = new Customer();
     $UO = new User();
