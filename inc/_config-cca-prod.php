@@ -12,8 +12,8 @@
     define('SITEFQDN', 'old.appraisemotor.co.uk');
     define('DOCUMENT_ROOT', '/home/forge/oldappraisemotor-im2ljrdk.on-forge.com/current');
     define('SITENAME', 'Old Appraise');
-    define('SITEEMAIL', 'your-email@example.com');
-    define('SITESENDEREMAIL', 'noreply@yourdomain.com');
+    define('SITEEMAIL', 'bongaitan.jc23@gmail.com');
+    define('SITESENDEREMAIL', 'jc@buyingbuddy.co.uk');
 
     define('USER_UPLOADS', '/user_uploads');
     define('VEHICLE_IMAGES','/vehicle-images');
