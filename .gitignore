@@ -1,6 +1,5 @@
 # Sensitive configuration files
 inc/_config-cca-dev.php
-inc/_config-cca-prod.php
 inc/_config-cca.php
 
 # Vendor directory (will be installed via composer)
