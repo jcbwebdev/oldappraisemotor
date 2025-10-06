@@ -1,0 +1,16 @@
+{
+    "name": "bonga/old-appraise",
+    "description": "php project",
+    "autoload": {
+        "psr-4": {
+            "Bonga\\OldAppraise\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JC Bongaitan",
+            "email": "bongaitan.jc23@gmail.com"
+        }
+    ],
+    "require": {}
+}
