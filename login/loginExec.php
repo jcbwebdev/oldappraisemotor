@@ -60,6 +60,7 @@
             
 
             //Admin?
+            echo('here');
             var_dump($User['AdminLevel']);
             exit();
             $AdminLevel = $User['AdminLevel'] ?? null;
