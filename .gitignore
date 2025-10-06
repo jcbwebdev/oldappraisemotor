@@ -12,8 +12,8 @@ vehicle-images/*
 !vehicle-images/.gitkeep
 
 # Database files
-*.sql
-*.sql.gz
+# *.sql
+# *.sql.gz
 
 # IDE files
 .vscode/
