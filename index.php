@@ -1,6 +1,7 @@
 <?php
     include('assets/dbfuncs.php');
-    
+    echo('sssss');
+    exit();
     //If not logged in - redirect to login page
     if (!isset($_SESSION['UserDetails']['ID']) || !is_numeric($_SESSION['UserDetails']['ID']) || $_SESSION['UserDetails']['ID'] <= 0) {
         header("Location:/login/");
