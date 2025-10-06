@@ -61,8 +61,8 @@
 
             //Admin?
             $AdminLevel = $User['AdminLevel'] ?? null;
-            // if ($AdminLevel != 'N' && $AdminLevel != '')
-            if ($AdminLevel == null)
+            if ($AdminLevel != 'N' && $AdminLevel != '')
+            // if ($AdminLevel == null)
             {
                 $_SESSION['UserDetails']['AdminLevel'] = $AdminLevel;
                 $nextloc = "/admin/";
