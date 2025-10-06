@@ -5,7 +5,7 @@
     use PeterBourneComms\CCA\Customer;
 
     //Deal with any referrer information
-    $referrer					= urldecode($_POST['referrer']) ?? null;
+    $referrer = urldecode($_POST['referrer']) ?? null;
 
     $Username = $_POST['Email'] ?? null;
     $Password = $_POST['Password'] ?? null;
@@ -61,7 +61,8 @@
 
             //Admin?
             $AdminLevel = $User['AdminLevel'] ?? null;
-            if ($AdminLevel != 'N' && $AdminLevel != '')
+            // if ($AdminLevel != 'N' && $AdminLevel != '')
+            if ($AdminLevel == null)
             {
                 $_SESSION['UserDetails']['AdminLevel'] = $AdminLevel;
                 $nextloc = "/admin/";
