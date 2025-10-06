@@ -1,0 +1,27 @@
+{
+	"name": "peterbournecomms/pb-ecommerce",
+	"type": "library",
+	"description": "PHP library for the Ecommerce part of the base CMS.",
+	"keywords": [],
+	"homepage": "https://www.peterbourne.co.uk/",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Peter Bourne",
+			"email": "hello@peterbourne.co.uk",
+			"homepage": "https://www.peterbourne.co.uk"
+		}
+	],
+	"repositories": [
+		{
+			"packagist.org": false,
+			"type": "path",
+			"url": "src"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"PeterBourneComms\\Ecommerce\\": "src"
+		}
+	}
+}

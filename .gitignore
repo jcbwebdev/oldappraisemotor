@@ -3,7 +3,7 @@ inc/_config-cca-dev.php
 inc/_config-cca.php
 
 # Vendor directory (will be installed via composer)
-vendor/
+# vendor/
 
 # User uploads and images
 user_uploads/*
