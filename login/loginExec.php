@@ -61,6 +61,7 @@
 
             //Admin?
             $AdminLevel = $User['AdminLevel'] ?? null;
+            var_dump($AdminLevel);
             // if ($AdminLevel != 'N' && $AdminLevel != '')
             if ($AdminLevel == null)
             {
