@@ -54,7 +54,7 @@
             $_SESSION['UserDetails']['ID'] = $User['ID'];
             $_SESSION['UserDetails']['FullName'] = $User['Firstname']." ".$User['Surname'];
             $_SESSION['UserDetails']['Email'] = $User['Email'];
-            $_SESSION['UserDetails']['Organisation'] = $User['Organisation'];
+            // $_SESSION['UserDetails']['Organisation'] = $User['Organisation'];
             $_SESSION['UserDetails']['CustomerID'] = $User['CustomerID'];
             $_SESSION['UserDetails']['Company'] = $Customer['Company'];
             
