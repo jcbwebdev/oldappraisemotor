@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1441 1022.89">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #fef5e4;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-8 {
+        mix-blend-mode: overlay;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-9 {
+        isolation: isolate;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="1441" height="1022.89"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="720.5" y1="164.93" x2="720.5" y2="665.93" gradientTransform="translate(0 180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbd180" stop-opacity=".21"/>
+      <stop offset="1" stop-color="#f6a200"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="733.75" y1="179.02" x2="733.75" y2="905.43" gradientTransform="translate(0 180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset=".35" stop-color="#d9d9d9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="752.5" y1="210.93" x2="752.5" y2="800.52" gradientTransform="translate(0 180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="797.79" y1="156.34" x2="797.79" y2="904.43" gradientTransform="translate(0 180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#444"/>
+      <stop offset="1" stop-color="#222" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-1">
+      <g class="cls-9">
+        <g id="Layer_1-3" data-name="Layer 1">
+          <g>
+            <rect class="cls-3" x=".5" y="-2.07" width="1440" height="1024"/>
+            <g>
+              <rect class="cls-4" x=".5" y="-2.07" width="1440" height="1024"/>
+              <g class="cls-8">
+                <path class="cls-6" d="M370,361.43C131.2,340.63,11.5,459.1-18.5,520.93l-15.5,564.5h1535.5v-403c-36,17.5-146-108.5-468-156.5-215.5-40-424.7-143.7-663.5-164.5Z"/>
+              </g>
+              <g class="cls-8">
+                <path class="cls-7" d="M219,457.52c-166.4-7.2-224,35.67-232,58l-15.5,465h1531l31-431c-27.17-51.5-140.4-155.3-376-158.5-294.5-4-370,124.5-542,119s-188.5-43.5-396.5-52.5h0Z"/>
+              </g>
+              <g class="cls-8">
+                <path class="cls-5" d="M282,513.93c-212.4,2-284.5,53.83-294,79.5v465.5l1495,25.5,124.5-712.5c2-15.33-30.7-43.5-177.5-33.5-183.5,12.5-245.5,233.5-571,234.5s-311.5-61.5-577-59Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

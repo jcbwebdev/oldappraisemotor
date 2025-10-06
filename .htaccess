@@ -1,0 +1,38 @@
+ErrorDocument	404		/404/
+
+RewriteEngine On
+
+RewriteBase /
+
+RewriteRule ^([A-Za-z0-9-_]+)+$			        	        /content/index.php?a=$1
+#RewriteRule ^news/[A-Za-z0-9-_]+$   	                    /news/news-detail.php
+#RewriteRule ^people/([A-Za-z0-9-_]+)+$                       /content/people-detail.php?a=$1
+RewriteRule ^auction/([A-Za-z0-9-_]+)+$                     /auction/auction.php?a=$1
+RewriteRule ^([A-Za-z0-9-_]+)/([A-Za-z0-9-_]+)+$	        /content/index.php?a=$1&b=$2
+
+
+####################
+# GZIP COMPRESSION #
+####################
+# SetOutputFilter DEFLATE
+# AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/x-httpd-php
+# BrowserMatch ^Mozilla/4 gzip-only-text/html
+# BrowserMatch ^Mozilla/4\.0[678] no-gzip
+# BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+# BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+# SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
+# Header append Vary User-Agent env=!dont-vary
+
+####################
+# CACHING - 7 days #
+####################
+# <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|woff)$">
+# Header set Cache-Control "max-age=604800, public"
+# </FilesMatch>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php80” package as the default “PHP” programming language.
+# <IfModule mime_module>
+#   AddHandler application/x-httpd-ea-php80 .php .php8 .phtml
+# </IfModule>
+# php -- END cPanel-generated handler, do not edit

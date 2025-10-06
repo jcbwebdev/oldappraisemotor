@@ -1,0 +1,42 @@
+# Sensitive configuration files
+inc/_config-cca-dev.php
+inc/_config-cca-prod.php
+inc/_config-cca.php
+
+# Vendor directory (will be installed via composer)
+vendor/
+
+# User uploads and images
+user_uploads/*
+vehicle-images/*
+!user_uploads/.gitkeep
+!vehicle-images/.gitkeep
+
+# Database files
+*.sql
+*.sql.gz
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+error_log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Environment files
+.env
+.env.local
+.env.*.local

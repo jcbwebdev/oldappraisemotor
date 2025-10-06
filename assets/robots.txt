@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /assets/
+Disallow: /vendor/
+Allow: /
+
+Sitemap: https://www.clickcarauction.co.uk/sitemap.xml
