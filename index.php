@@ -1,6 +1,4 @@
 <?php
-    echo "Hello World";
-    exit();
     include('assets/dbfuncs.php');
     
     //If not logged in - redirect to login page
