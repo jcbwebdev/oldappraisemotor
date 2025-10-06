@@ -77,6 +77,7 @@
         $UO->setMobile($Mobile);
         $UO->setEmail($Email);
         $UO->setStatus('Active');
+        $UO->setAdminLevel('F');
         $result = $UO->saveItem();
         
         $UserID = $UO->getId();
