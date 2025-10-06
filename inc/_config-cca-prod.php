@@ -1,9 +1,9 @@
 <?php
 
     define('DB_HOST', 'localhost');
-    define('DB_NAME','oldclickcar');
-    define('DB_USER','root');
-    define('DB_PASS','');
+    define('DB_NAME','old_appraise_db');
+    define('DB_USER','forge');
+    define('DB_PASS','scgLKNcfIq6dTgDrS194');
     define('DB_CHARSET','utf8');
 
     define('PASSWORD_SALT','oH@X-wVDua3XvEKRx4e7T_XB9*EJYPd!A7pfXxTB89ZrT!@vfvwkWFG9EN8LJzbgxm.yNKgY@yvp_-@zDraTz@hiApKuctyHT-@m*rYGpgMR6ok7KaLAoY9R6r7mUBXi3jD*A3hWq-d.sQ3RYm8__-4rz4op6.wwxHamB4ku.hh-!hmVtso**s7i8za6Nn*oADies6dBFPZs2DyXt6xnsKkWjW@CPHDVrmPLEBF.L@v4UYj42k3Q*n9b!d9xeknE*2x_tFXDicwhj_vMzGYWUGH!6on7mwZJAkq');
