@@ -4,7 +4,7 @@
     date_default_timezone_set('Europe/London');
     session_start();
 
-    require_once(__DIR__.'/../inc/_config-cca-dev.php');
+    require_once(__DIR__.'/../inc/_config-cca-prod.php');
     require __DIR__ . '/../vendor/autoload.php';
 
     use PeterBourneComms\CMS\SiteSettings;
